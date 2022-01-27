@@ -37,7 +37,7 @@ void Tasklog_3(void *pvParameter)
     {
         printf(" TASK LOG 3 RUNNING\n");
         
-        vTaskDelay(3000/ portTICK_PERIOD_MS);
+        vTaskDelay(5000/ portTICK_PERIOD_MS);
     }
     //vTaskDelete(NULL);
 }
